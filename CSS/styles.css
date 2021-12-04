@@ -1,0 +1,154 @@
+h1{
+    font-size: 55px;
+}
+h2{
+    color: forestgreen;
+}
+h3{
+    color: lightgreen;
+}
+
+body{
+    background: #E4F9F5;
+    text-align: center;
+    height: 80%;
+    font-family:"Papyrus";
+}
+
+hr{
+    border: dotted;
+    border-bottom: none;
+    border-color: rgb(187, 186, 186);
+    width: 25px;
+    border-width: 10px;
+    margin: 100px auto;
+}
+
+.heading{
+    position: fixed;
+    right: 30px;
+    top: 10px;
+    margin-right: 50px;
+    font-size: 30px;
+    color: #079b49;
+}
+
+a:link{
+    color: #079b49;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(101, 212, 101);
+}
+
+a:hover{
+    color: rgb(146, 240, 204);
+}
+
+.aboutMe{
+    margin-right: 20px;
+}
+
+.box1{
+    color: forestgreen;
+    width: 40%;
+    margin: auto;
+    margin-top: 150px;
+    font-size: 35px;
+}
+.picture{
+    display: block;
+}
+
+.mountain{
+    bottom: 0%;
+    left: 20%;
+    height: 400px;
+}
+.top-cloud{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+.bottom-cloud{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.middle-container{
+    width: 50%;
+    margin: auto;
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    margin-top: 100px;
+}
+
+.skill-row{
+    text-align: left;
+    line-height: 2;
+}
+
+.chillies_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    float: left;
+    margin-right: 30px;
+}
+.clear{
+    clear:both;
+}
+
+.computer_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    float: right;
+    margin-right: 30px;
+}
+
+.skill-row:nth-child(4){
+    margin-top: 50px;
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #3dc21b;
+	background:linear-gradient(to bottom, #377d4a 5%, #6bb341 100%);
+	background-color:#377d4a;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Papyrus";
+	font-size:15px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #6bb341 5%, #377d4a 100%);
+	background-color:#6bb341;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.final-container{
+    margin-top: 80px;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.link{
+    margin: 30px 15px 15px 30px;
+}
+
+
